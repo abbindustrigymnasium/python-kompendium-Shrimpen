@@ -1,21 +1,26 @@
+Uppgift 1
 #citat = "datatyper har inbyggda metoder" 
 #print(citat.title())
 
+Uppgift 2
 #a = float(input("lägg in tal här "))
 #b = int(a)
 #print(b)
 
+Uppgift 3
 #print("hallå\nVad heter du i förnamn?")
 #förnamn = input()
 #print("vad är ditt efternamn?")
 #efternamn = input()
 #print("Trevlig att träffas " +förnamn +" "+ efternamn)
 
+Uppgift 4
 #print("Hur gammal är du?")
 #ålder = input()
 #svar = 18-int(ålder)
 #print("Du är myndig om " +str(svar)+ "år")
 
+Uppgift 5
 print("Hur många ska ha 2 korvar")
 korvar2= int(input())*2
 print(korvar2)
