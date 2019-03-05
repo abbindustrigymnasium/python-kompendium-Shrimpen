@@ -1,0 +1,45 @@
+#citat = "datatyper har inbyggda metoder" 
+#print(citat.title())
+
+#a = float(input("lägg in tal här "))
+#b = int(a)
+#print(b)
+
+#print("hallå\nVad heter du i förnamn?")
+#förnamn = input()
+#print("vad är ditt efternamn?")
+#efternamn = input()
+#print("Trevlig att träffas " +förnamn +" "+ efternamn)
+
+#print("Hur gammal är du?")
+#ålder = input()
+#svar = 18-int(ålder)
+#print("Du är myndig om " +str(svar)+ "år")
+
+print("Hur många ska ha 2 korvar")
+korvar2= int(input())*2
+print(korvar2)
+print("Hur många ska ha 3 korvar")
+korvar3= int(input())*3
+print(int(korvar3))
+korvarsvar= int(korvar2+korvar3)/8
+print(str(korvarsvar)+" korvar behöver du")
+
+print("Hur många ska ha 2 vegokorvar")
+vego2= int(input())*2
+print(vego2)
+print("Hur många ska ha 3 vegokorvar")
+vego3= int(input())*3
+print(int(vego3))
+vegosvar= int(vego2+vego3)/4
+print(str(vegosvar)+" vegokorvar behöver du")
+
+dryck= int(((korvar2+vego2)/2)+(korvar3+vego3)/3)
+print("Så många drickor behöver du "+ str(dryck))
+
+sumkorvar= int(korvarsvar*20.95)
+sumvego= int(vegosvar*34.95)
+sumdryck= int(dryck*13.95)
+
+total= int(korvarsvar+vegosvar+dryck)
+print(str(total))
