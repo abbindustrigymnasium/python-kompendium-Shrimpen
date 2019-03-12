@@ -1,0 +1,51 @@
+male = [
+    "Erik",
+    "Lars",
+    "Karl",
+    "Anders",
+    "Johan"
+
+]
+
+female = [
+    "Maria",
+    "Anna",
+    "Margareta",
+    "Elisabeth",
+    "Eva"
+]
+Uppgift 3.1
+# print(male[0])
+# print(female[2])
+# print(female[4])
+# print (male[1])
+
+Uppgift 3.2
+# print(female)
+# print(male)
+# del male[1]
+# del male[2]
+# del female[0]
+# print(male)
+# print(female)
+
+Uppgift 3.3
+# print(male)
+# male.append("Filip")
+# print(male)
+
+Uppgift 3.4
+# print(male)
+# male.sort()
+# print(male)
+
+
+
+Uppgift 3.5
+man=input("Vilken använder ska tas bort?"+str(male))
+kvinna=input("Vilken använder ska tas bort?"+str(female))
+
+male.remove (man)
+female.remove (kvinna)
+print(male)
+print(female)
