@@ -1,0 +1,47 @@
+# mängd= []
+# tal=1
+# summa=0
+# while tal < 50:
+#     mängd.append(tal)
+#     summa= summa + tal 
+#     tal+=2
+# else:
+#     for nummer in mängd:
+#         print(nummer)
+
+#Uppgift 4.1
+
+# mängd=range(10000)
+# summa=0
+# for nummer in mängd:
+#     summa=summa+nummer
+# print(summa)
+
+#Uppgift 4.2
+
+#mängd=range(501)
+#summa=0
+#for nummer in mängd:
+#    if nummer % 2==0:
+#        summa=summa+nummer
+#print(summa)
+
+#Uppgift 4.3
+
+#registrerade =[" Anna ", "Eva ", " Erik ", " Lars ", " Karl "]
+#avanmälningar =[" Anna ", " Erik ", " Karl "]
+
+#for namn in avanmälningar:
+#    registrerade.remove(namn)
+    
+#print ( registrerade )
+
+#Uppgift 4.4
+
+#förnamn =[" Maria ", " Erik ", " Karl "]
+#efternamn =[" Svensson ", " Karlsson ", " Andersson "]
+
+#for första in förnamn:
+    #for efter in efternamn:
+        #print(första+efter)
+    
