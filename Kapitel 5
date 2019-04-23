@@ -1,0 +1,50 @@
+# Övning 5.1
+# ögon = (input("Är din ögonfärg brun eller blå?"))
+# hår = (input("Är ditt hår brunt eller rött?"))
+# kön = (input("Är ditt kön man eller kvinna?"))
+
+# if ögon == "brun":
+#     if hår =="brunt":
+#         if kön =="man":
+#             print("Ditt utsende matchar Daniel Radcliffe, Bert Karlsson, Märta Blomm och Fricky Land")
+
+# if ögon == "blå":
+#     if hår =="rött":
+#         if kön =="man":
+#             print("Ditt utsende matchar Rupert Grint och Lars Larsson")
+
+# if ögon == "brun":
+#     if hår =="brunt":
+#         if kön =="kvinna":
+#             print("Ditt utsende matchar Emma Watson och Selena Gomez")
+
+# if ögon != ("bruna","blå"):
+#     if hår != ("brunt","rött"):
+#         if kön != ("man","kvinna"):
+#             print ("Du matchar ingen kändis")
+
+# övning  5.2
+# Namn = input("skriv namn")
+# Ålder = int(input(("Hur gammal är du")))
+# timmar = ["14","13","12","11,5","11","11","10,5","10","10","10","9,5","9","9","9","9","8,5","8"]
+
+# if Ålder > 16:
+#     print("Hallå "+ Namn+"! Enligt Vårdguidens rekommendationer behöver individer i din ålder("+str(Ålder)+")sova minsta "+ str(timmar[16]) + " timmar per natt")
+
+# else:
+#     print("Hallå "+ Namn+"! Enligt Vårdguidens rekommendationer behöver individer i din ålder("+str(Ålder)+")sova minsta "+ (timmar[Ålder -1]) + " timmar per natt")
+
+#övning 5.3
+Norden = ["Danmark","Finland","Island","Norge","Sverige"]
+Storbritanien = ["England","Nordirland","Skottland","Wales"]
+
+land = input("Mata in ett land")
+
+if land.title() in Norden:
+    print("Landet du valde ligger i Norden")
+
+elif land.title() in Storbritanien:
+    print("Landet ligger i Storbritanien")
+
+else:
+    print("Ditt land ligger varken i Norden eller storbritanien")
