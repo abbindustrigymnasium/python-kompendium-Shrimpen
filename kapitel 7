@@ -1,0 +1,60 @@
+Övning 7.1 Första testet (Fördig lösning är nästa)
+
+# nummer= int(input("ange multiplikationstabbel")) #ber om ett nummer 
+# val = 0 # variaben för att kunna stänga loopen 
+
+# while val != "nej":  #vilket värden som val behöver vara för att stänga loopen
+#     print(nummer*1,nummer*2,nummer*3)   
+#     val= str(input("vill du forsätta?"))    #frågar om man vill fortsätta 
+#     print(nummer*1,nummer*2,nummer*3,nummer*4,nummer*5,nummer*6)
+#     val= str(input("vill du forsätta?"))
+#     print(nummer*1,nummer*2,nummer*3,nummer*4,nummer*5,nummer*6,nummer*7,nummer*8,nummer*9)
+#     print("nu kommer multiplikationstabbelen starta om")
+#     val= str(input("vill du börja om?"))
+
+Övning 7.1 färdig lösning
+
+# nummer= int(input("ange multiplikationstabbel")) #ber om ett nummer 
+# multi = 1
+# beg = 4
+
+# while multi < beg:
+#     print(nummer*multi)     #skriver ut talet man vill multiplicera
+#     multi +=1 
+#     if multi == beg:      
+#         svar = input("fortsätt? >")    #frågar om man vill fortsätta
+#         if svar == "ja":
+#             beg +=3      #begränsningen förlängs med 3 
+
+Övning 7.2
+
+print(".: THE HIGHER LOWER GAME :.")    #introducerar spelet
+print("---------------------------")
+print("Welcome to The Higher Lower")
+print("Game . I will randomise a")
+print("number between 0 and 99.")
+print("Can you guess it ?")
+print("---------------------------")
+
+import random   #random funktionen 
+chanse = 0
+beg = 100
+
+dator = random.randint(0,99)    #sluppar ett tal mellan 0-99
+
+while chanse < beg:       
+    nummer= int(input("gissa ett tal mellan 0-99 "))   #frågar om din gissning
+    if nummer > dator:      #om nummret är mindre körs den här satsen
+        print("din gissning ",nummer)
+        print("nummret är mindre")
+        chanse += 1
+    elif nummer < dator:   #om numret är större körs den här satsen
+        print("din gissning ",nummer)
+        print ("nummret är större")
+        chanse += 1
+    elif nummer == dator:    #när numret sen blir lika körs den här koden sist och sen avbryter
+        print("din gissning ",nummer)          
+        print("Du gissade rätt nummer")
+        chanse += 1
+        print("du har gissat ", chanse, " gånger")
+        break
